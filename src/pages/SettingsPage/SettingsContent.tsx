@@ -254,7 +254,6 @@ const PrivateInput = styled.input`
       font-family: Mulish;
       color: #000000;
     }
-
 `;
 
 type RowInputsProps = {
@@ -275,7 +274,6 @@ const RowInputs = styled.div<RowInputsProps>`
     input:nth-child(3) {
     width: ${(props) => props.input3Width};
     }
-    
 `;
 
 const CustomInput = styled(InputWithMask)`
